@@ -1,0 +1,14 @@
+A class that can be asked for a redis client connection.
+
+It will either return one from a pool, or instantiate a new one.
+
+
+Example:
+
+redisClient, c := redisfactory.NewConnection()
+
+// do something with redisClient
+
+c <- true
+
+
